@@ -1,0 +1,8 @@
+The DevExpress ASP.NET Core Rich Text Editor supports the AutoCorrect feature that allows you to analyze the typed text and modify or substitute it. The control provides the AutoCorrect capabilities that can be enabled by setting the corresponding server-side properties to **true**.
+
+You can enable the built-in AutoCorrect feature using the following server-side properties:
+
+- [CorrectTwoInitialCapitals](https://docs.devexpress.com/AspNetCore/DevExpress.AspNetCore.RichEdit.AutoCorrectSettingsBuilder.CorrectTwoInitialCapitals%28System.Boolean%29) - specifies whether the control should correct words that start with two capital letters by changing the second letter to lowercase.
+- [DetectUrls](https://docs.devexpress.com/AspNetCore/DevExpress.AspNetCore.RichEdit.AutoCorrectSettingsBuilder.DetectUrls%28System.Boolean%29) - specifies whether the control should detect URI strings and format them as hyperlinks.
+- [EnableAutomaticNumbering](https://docs.devexpress.com/AspNetCore/DevExpress.AspNetCore.RichEdit.AutoCorrectSettingsBuilder.EnableAutomaticNumbering%28System.Boolean%29) - specifies whether the control should automatically create numbered or bulleted lists when certain symbols are typed.
+- [ReplaceTextAsYouType](https://docs.devexpress.com/AspNetCore/DevExpress.AspNetCore.RichEdit.AutoCorrectSettingsBuilder.ReplaceTextAsYouType%28System.Boolean%29) - specifies whether the control should search a replacement for the typed string in the [ReplaceInfoCollection](https://docs.devexpress.com/AspNetCore/DevExpress.AspNetCore.RichEdit.ReplaceInfoCollectionSettingsBuilder.ReplaceInfoCollection%28System.Action-DevExpress.AspNetCore.RichEdit.ReplaceInfoCollectionBuilder-%29) collection.

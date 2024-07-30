@@ -1,0 +1,4 @@
+With the DevExpress ASP.NET Core Rich Text Editor, your users can view and modify documents with rich text formatting in a browser. You can allow end-users to perform file management operations (such as creating a new document, opening an existing document or saving a document) via the corresponding ribbon command buttons. These buttons are available in the **File** tab of the built-in ribbon.
+
+- The **Open** button lets the user choose a file from their device storage.
+- The **Save** button allows users to call a custom saving logic implemented for the control. In this demo, the document is passed to the server as a base 64 string with a document's name and its format using the [ExportUrl](https://docs.devexpress.com/AspNetCore/DevExpress.AspNetCore.RichEdit.RichEditBuilder.ExportUrl%28System.String%29). 

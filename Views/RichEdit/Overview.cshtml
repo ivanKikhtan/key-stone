@@ -1,0 +1,37 @@
+<script src="~/DemosScripts/ribbonCustomization.js"></script>
+
+@(Html.DevExpress().RichEdit("RichEdit")
+    .OnCalculateDocumentVariable("calculateDocumentVariable")
+    .Ribbon(ribbon => ribbon
+        .Visible(true)
+        .ActiveTabIndex(0)
+        .Tabs(tabs =>
+        {
+            tabs.Add()
+                .Title("Dynamic Content")
+                .Items(items =>
+                {
+
+                    items.AddButton()
+                        .Text("Signature")
+                        .CommandName("insertSignature")
+                        .ShowText(true)
+                        .Icon("table");
+                    items.AddButton()
+                        .Text("Comp Table")
+                        .CommandName("insertTableFromImage")
+                        .ShowText(true)
+                        .Icon("table");
+                    items.AddButton()
+                        .Text("Current Time")
+                        .CommandName("current_time")
+                        .ShowText(true)
+                        .Icon("table");
+                });
+        })
+    )
+    .OnCustomCommandExecuted("onCustomCommandExecuted")
+    .OnDocumentLoaded("onDocumentLoaded")
+    .Height(900)
+    .ConfirmOnLosingChanges(c => c.Enabled(false))
+)

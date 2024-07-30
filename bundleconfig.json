@@ -1,0 +1,32 @@
+[
+
+  {
+    "outputFileName": "wwwroot/bundle.min.css",
+    "inputFiles": [
+      "wwwroot/css/dx.common.css",
+      "wwwroot/DemoShell/hljs/highlightjs.gh.css"
+    ]
+  },
+
+  {
+    "outputFileName": "wwwroot/bundle-richedit.min.css",
+    "inputFiles": [
+      "wwwroot/dx-aspnetcore-richedit/dx.richedit.css"
+    ]
+  },
+
+  {
+    "outputFileName": "wwwroot/bundle.min.js",
+    "inputFiles": [
+      "wwwroot/js/jquery.min.js",
+      "wwwroot/js/dx.all.js",
+      "wwwroot/js/jszip.min.js",
+      "wwwroot/dx-aspnetcore-richedit/dx.richedit.min.js",
+      "wwwroot/DemoShell/hljs/highlight.pack.js"
+    ],
+    "minify": {
+      "enabled": false 
+    }
+  }
+
+]

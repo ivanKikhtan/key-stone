@@ -1,0 +1,1 @@
+The mail merge functionality enables you to bind the control to an external data source and then preview dynamic content right in the opened template document, before you perform the final mail merge. This feature is useful for a variety of business requirements, for instance to compose, preview and generate catalogs, reports, or personalized letters. 

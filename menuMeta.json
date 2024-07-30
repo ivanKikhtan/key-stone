@@ -1,0 +1,101 @@
+﻿[
+  {
+    "Name": "Rich Text Editor",
+    "Groups": [
+        {
+            "Name": "Overview",
+            "Demos": [
+                {
+                    "Title": "Overview",
+                    "Controller": "RichEdit",
+                    "Action": "Overview",
+                    "DocUrl": "http://docs.devexpress.com/AspNetCore/400373/rich-text-editor"
+                }
+            ]
+        },
+        {
+            "Name": "Load/Save",
+            "Demos": [
+                {
+                    "Title": "Load/Save",
+                    "Controller": "RichEdit",
+                    "Action": "LoadAndSave"
+                }
+            ]
+        },
+        {
+            "Name": "Document Protection",
+            "Demos": [
+                {
+                    "Title": "Document Protection",
+                    "Controller": "RichEdit",
+                    "Action": "DocumentProtection",
+                    "MvcAdditionalFiles": [
+                        "/wwwroot/DemosScripts/documentProtection.js"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Templates",
+            "Demos": [
+                {
+                    "Title": "Dynamic Content",
+                    "Controller": "RichEdit",
+                    "Action": "DynamicContent"
+                },
+                {
+                    "Title": "Mail Merge",
+                    "Controller": "RichEdit",
+                    "Action": "MailMerge",
+                    "MvcAdditionalFiles": [
+                        "/Models/SampleData.cs",
+                        "/Models/Company.cs"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Autocorrect",
+            "Demos": [
+                {
+                    "Title": "Autocorrect",
+                    "Controller": "RichEdit",
+                    "Action": "Autocorrect"
+                }
+            ]
+        },
+        {
+            "Name": "Customization",
+            "Demos": [
+                {
+                    "Title": "Ribbon",
+                    "Controller": "RichEdit",
+                    "Action": "RibbonCustomization",
+                    "MvcAdditionalFiles": [
+                        "/wwwroot/DemosScripts/ribbonCustomization.js"
+                    ]
+                },
+                {
+                    "Title": "Context Menu",
+                    "Controller": "RichEdit",
+                    "Action": "ContextMenuCustomization",
+                    "MvcAdditionalFiles": [
+                        "/wwwroot/DemosScripts/contextMenuCustomization.js"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Simple View",
+            "Demos": [
+                {
+                    "Title": "Simple View",
+                    "Controller": "RichEdit",
+                    "Action": "SimpleView"
+                }
+            ]
+        }
+    ]
+  }
+]
